@@ -11,7 +11,18 @@
 |
 */
 
-Route::get('/', function()
-{
-	return View::make('hello');
+Route::get('/', function () {
+    return View::make('index');
+});
+
+Route::get('/admin', function () {
+    return View::make('admin');
+});
+
+Route::get('/topic', function () {
+    return View::make('topics.topic');
+});
+
+Route::get('/post', function () {
+    return View::make('post');
 });
