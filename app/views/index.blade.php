@@ -6,25 +6,28 @@
 
 @section('content')
     <div class="container jumbotron">
-        <form class="navbar-search pull-right">
-            <input class="search-query" placeholder="Search" type="text">
-        </form>
         <p>Topics</p>
         <hr>
-        <blockquote>
+        <blockquote class="topic">
             <p>Title</p>
-            <small>Comments <span class="badge badge-info">8</span></small>
+            <small><span class="glyphicon glyphicon-comment"></span>
+                Comments <span class="badge badge-info">8</span>
+            </small>
         </blockquote>
         <hr>
-        <blockquote>
+        <blockquote class="topic">
             <p><span class="label label-warning">new</span></p>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-            <small>Comments <span class="badge badge-info">8</span></small>
+            <small><span class="glyphicon glyphicon-comment"></span>
+                Comments <span class="badge badge-info">8</span>
+            </small>
         </blockquote>
         <hr>
-        <blockquote>
+        <blockquote class="topic">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-            <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
+            <small><span class="glyphicon glyphicon-comment"></span>
+                Comments<span class="badge badge-info">8</span>
+            </small>
         </blockquote>
         <hr>
     </div>

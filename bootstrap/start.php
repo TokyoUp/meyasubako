@@ -24,11 +24,11 @@ $app = new Illuminate\Foundation\Application;
 |
 */
 
-$env = $app->detectEnvironment(function()
-{
-    return $_ENV['MY_LARAVEL_ENV'];
-});
+$env = $app->detectEnvironment(array(
 
+    'local' => array('localhost'),
+
+));
 /*
 |--------------------------------------------------------------------------
 | Bind Paths

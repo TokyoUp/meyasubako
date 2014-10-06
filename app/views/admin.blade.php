@@ -6,9 +6,6 @@
 
 @section('content')
     <div class="container jumbotron">
-        <form class="navbar-search pull-right">
-            <input class="search-query" placeholder="Search" type="text">
-        </form>
         <p>Topics</p>
         <hr>
         <blockquote>

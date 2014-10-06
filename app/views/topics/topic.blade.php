@@ -33,5 +33,40 @@
     <div class="well well-sm">
         comment
     </div>
+    <div class="well well-sm">
+        <form id="comment-form">
+            <div class="form-group">
+                <div class="col-lg-10">
+                    <span class="help-block">コメントフォーム&nbsp&nbsp&nbsp&nbsp<small>※後から編集は出来ません。</small></span>
+                    <textarea class="form-control" rows="3" id="textArea"></textarea>
+                </div>
+            </div>
+            <div class="form-group">
+                  <div class="col-lg-10 col-lg-offset-2">
+                    <button id="comment-btn" class="btn btn-warning">コメントする</button>
+                  </div>
+            </div>
+        </form>
+    </div>
+
 </div>
+
+<div class="modal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">×</button>
+                <h4 class="modal-title">Modal title</h4>
+            </div>
+            <div class="modal-body">
+                <p>One fine body…</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="close" data-dismiss="modal">×</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+         </div>
+    </div>
+</div>
+
 @stop
